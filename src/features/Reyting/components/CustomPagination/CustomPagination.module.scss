@@ -1,0 +1,41 @@
+.customPagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+
+    &__bullet {
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--black-color);
+        border-radius: 23px;
+        color: var(--black-color);
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button {
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--black-color);
+        border-radius: 23px;
+        background: none;
+    }
+}
+.customPagination__bullet.active {
+    background: #0047ff;
+    color: var(--white-color);
+}

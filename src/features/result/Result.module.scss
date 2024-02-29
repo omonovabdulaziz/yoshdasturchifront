@@ -1,0 +1,114 @@
+.result_sec {
+  width: 100%;
+  height: 100%;
+  margin-top: 63px;
+  position: relative;
+  .result_inner {
+    width: 100%;
+    height: 100%;
+    .top {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+      .left_side {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        width: 20%;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          gap: 5px;
+        }
+        .result {
+          @media screen and (max-width: 768px) {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+        }
+        h2 {
+          font-size: 2.5rem;
+          font-weight: 500;
+          line-height: 3.0475rem;
+          color: var(--black-color);
+        }
+        p {
+          font-size: 1.25rem;
+          font-weight: 500;
+          line-height: 1.5237rem;
+        }
+      }
+      .right_side {
+        width: 80%;
+        height: 100%;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          order: -1;
+        }
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h4 {
+      font-weight: 500;
+      line-height: 1.1431rem;
+      font-size: 0.9375rem;
+      @media screen and (max-width: 768px) {
+        margin-top: 30px;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        color: #0047ff;
+      }
+    }
+    .swiperContainer {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 76px;
+      @media screen and (max-width: 768px) {
+        padding-top: 30px;
+      }
+      .swiperSlide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1024px;
+        height: 186px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+      }
+      .swiper_pagination {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        color: #333;
+        font-size: 14px;
+        .swiper_pagination_current {
+          margin-right: 5px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

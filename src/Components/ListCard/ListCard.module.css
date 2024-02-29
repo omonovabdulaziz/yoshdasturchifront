@@ -1,0 +1,163 @@
+.reyting {
+    transition: 0.2s;
+    background-color: var(--body_background);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.reyting__number {
+    width: 20px;
+    min-width: 20px;
+}
+
+.reyting__inner {
+    padding: 20px;
+}
+
+.reyting__table {
+  height: 100%;
+}
+
+.reyting__top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.reyting__title {
+  margin-bottom: 5px;
+}
+
+.reyting__timeupdate {
+  white-space: nowrap;
+  opacity: 0.5;
+}
+
+.reyting__table_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+
+  margin-bottom: 10px;
+}
+
+.reyting__table_top div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.reyting__userreyt {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 13px 30px;
+}
+
+.reyting__content1 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 180px;
+}
+
+.reyting__content2 {
+    display: flex !important;
+    align-items: center !important;
+    gap: 50px !important;
+    width: 300px;
+    justify-content: end;
+}
+
+.reyting__content3 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: end;
+  gap: 90px !important;
+  width: 180px;
+}
+
+.reyting__right {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.reyting__wrong {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.reyting__rightuser {
+}
+
+.reyting__wronguser {
+  text-align: end;
+  width: 40px;
+}
+
+.reyting__date {
+  margin-left: 60px;
+}
+
+.reyting__dateuser {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  white-space: nowrap;
+}
+
+.reyting__dateuser span {
+    opacity: 0.5;
+}
+
+.reyting__viloyat {
+    min-width: 80px;
+    text-align: end;
+}
+
+.reyting__viloyatuser {
+    min-width: 80px;
+    text-align: end;
+}
+
+.reyting__profileimage {
+  min-width: 25px;
+  min-height: 25px;
+  border-radius: 50%;
+  background-color: #a5a5a5;
+}
+
+.reyting__profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.reyting__bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.reyting__seemore {
+  display: flex;
+  align-items: center;
+  transition: .2s;
+  padding-right: 5px;
+  
+}
+
+.reyting__seemore p {
+  font-weight: 400;
+  color: var(--black-color);
+  cursor: pointer;
+}
+.reyting__seemore:hover {
+    padding-right: 0px;
+}

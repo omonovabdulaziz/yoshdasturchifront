@@ -1,0 +1,124 @@
+.Result {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 63px;
+}
+.ResultsAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ResultsAll .ResultsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  border-radius: 8px;
+  -webkit-box-shadow: -1px 3px 24px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -1px 3px 24px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: -1px 3px 24px 0px rgba(34, 60, 80, 0.2);
+}
+
+.ResultUser {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+  padding: 0 50px;
+  gap: 30px;
+}
+.ResultUser img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.ResultTest {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 50px;
+}
+.ResultUser p {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.8125rem;
+  letter-spacing: 0em;
+}
+.FinishedTest p {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8125rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.FinishedTime p {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.8125rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ResultBack {
+  padding-bottom: 30px;
+  display: flex;
+  font-size: 1.1rem;
+  cursor: pointer;
+  gap: 10px;
+  font-weight: 500;
+  line-height: 1.0625rem;
+}
+.AllResultsList {
+  display: flex;
+  justify-content: center;
+}
+
+.AllResultsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.AllResultsContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.AllResultsContainer table thead td {
+  border-bottom: 1px solid #ccc;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  padding: 10px 0;
+}
+.AllResultsContainer table tbody td {
+  font-size: 1.1rem;
+}
+.AllResultsContainer table tbody td {
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .ResultsContainer {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .ResultTest {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .ResultUser {
+    border: none;
+  }
+}

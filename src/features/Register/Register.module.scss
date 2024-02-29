@@ -1,0 +1,144 @@
+.RegisterContainer {
+  display: flex;
+  width: auto;
+  height: 100vh;
+}
+.RegisterImage {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 100%;
+  background-color: #edf0ff;
+}
+.RegisterImage .RegisterImg {
+  width: 100%;
+  max-width: 654px;
+  height: auto;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+.RegisterForm {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.RegisterFormInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.RegisterFormInput input {
+  width: 434px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #0047ff;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.RegisterFormInput label {
+  font-size: 0.89rem;
+}
+.RegisterFormInputs div p {
+  width: 434px;
+  opacity: 70%;
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+.RegisterFormInputs div h1 {
+  font-size: 1.5rem;
+}
+.RegisterFormInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.RegisterFormInputs button {
+  width: 434px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px;
+  background-color: #0047ff;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.RegisterSignIn {
+  text-align: center;
+  font-size: 1rem;
+}
+.RegisterSignIn span {
+  color: #0047ff;
+  cursor: pointer;
+}
+.selectWrapper {
+  position: relative;
+}
+.selectWrapper select {
+  width: 434px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #0047ff;
+  outline: none;
+  font-size: 1rem;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+/* Style for eye icon */
+.ri-eye-line {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+.passwordInputContainer {
+  position: relative;
+}
+.eyeIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+  .RegisterImage {
+    display: none;
+  }
+  .RegisterForm {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .RegisterFormInput input {
+    width: 100%;
+  }
+  .RegisterFormInputs button {
+    width: 100%;
+  }
+  .RegisterFormInputs div p {
+    width: 100%;
+  }
+  .RegisterFormInputs div h1 {
+    font-size: 1.5rem;
+  }
+  .RegisterContainer {
+    height: auto;
+    margin: 20px 0;
+    overflow-y: scroll;
+    padding: 0 20px;
+  }
+  .selectWrapper select {
+    width: 100%;
+  }
+}
